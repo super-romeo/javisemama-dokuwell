@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Za decu u inostranstvu ili drugom gradu: roditelj u Srbiji svaki dan dobija poziv, a ako se ne javi, vi odmah dobijate obaveštenje.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Javi se</a></div>
-  <nav class="top"><a href="#sta" data-ev="click_nav_sta">Šta dobijate</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Javi se</a>
+  <nav><a href="#sta" data-ev="click_nav_sta">Šta dobijate</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Svaki dan znate da je mama ili tata dobro — i odmah saznate ako se ne javi</h1>
-    <p class="sub">Za decu koja žive u Nemačkoj, Austriji, Švajcarskoj ili u drugom gradu: roditelj u Srbiji svaki dan u dogovoreno vreme dobija poziv ili pritisne dugme na telefonu, a ako se ne javi, vi i drugi bliski odmah dobijate poruku.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Ovo mi treba</a>
-    <p class="cta-note">Rani pristup · Na ovoj stranici još se ne prima plaćanje</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Za decu koja žive u Nemačkoj</p>
+      <h1 class="rise" style="--i:1" data-len="long">Svaki dan znate da je mama ili tata dobro&nbsp;<span class="soft">— i odmah saznate ako se ne javi</span></h1>
+      <p class="rise" style="--i:2">Za decu koja žive u Nemačkoj, Austriji, Švajcarskoj ili u drugom gradu: roditelj u Srbiji svaki dan u dogovoreno vreme dobija poziv ili pritisne dugme na telefonu, a ako se ne javi, vi i drugi bliski odmah dobijate poruku.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Ovo mi treba</a>
+      <p class="meta rise" style="--i:4">Rani pristup · Na ovoj stranici još se ne prima plaćanje</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" fill="#0a1524" font-weight="600">Svaki dan</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" fill="#0a1524">poziv</text><rect x="130" y="360" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="392" font-size="32" fill="#0a1524">dugme</text><rect x="130" y="460" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="492" font-size="32" fill="#0a1524">poruku</text><rect x="700" y="260" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="320" font-size="32" fill="#0a1524" font-weight="600">Istorija</text><rect x="740" y="500" width="50" height="100" rx="8" fill="#ffffff" /><rect x="815" y="440" width="50" height="160" rx="8" fill="#b9c3d2" /><rect x="890" y="520" width="50" height="80" rx="8" fill="#12397a" /><rect x="965" y="460" width="50" height="140" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Kome</dt><dd>Deci i bliskima roditelja</dd></div>
+      <div><dt>Radi</dt><dd>Dnevna provera</dd></div>
+      <div><dt>Kako</dt><dd>Automatski poziv na srpskom</dd></div>
+      <div><dt>Pristup</dt><dd>Rani pristup</dd></div>
+    </dl>
+  </section>
 
   <section id="sta" data-view="features_view">
-    <h2>Šta dobijate</h2>
-    <div class="grid">
-      <div class="card"><b>Dnevni poziv</b><span>Automatski poziv na srpskom u vreme koje odaberete; roditelj pritisne taster.</span><br><a class="btn" href="price.html" data-ev="feature_poziv">Ovo mi treba</a></div>
-      <div class="card"><b>Ili jedno dugme</b><span>Roditelj sa pametnim telefonom pritisne jedno veliko dugme.</span><br><a class="btn" href="price.html" data-ev="feature_dugme">Ovo mi treba</a></div>
-      <div class="card"><b>Obaveštenje deci</b><span>Ako nema odgovora, poruka vama i drugim bliskim, u inostranstvu ili u Srbiji.</span><br><a class="btn" href="price.html" data-ev="feature_obavestenje">Ovo mi treba</a></div>
-      <div class="card"><b>Istorija</b><span>Kada se roditelj javio, svaki dan, na jednom mestu.</span><br><a class="btn" href="price.html" data-ev="feature_istorija">Ovo mi treba</a></div>
+    <div class="stack"><h2>Šta dobijate</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Dnevni poziv</text><text x="120" y="490" font-size="30" fill="#566174">na srpskom</text><rect x="280" y="185" width="240" height="250" rx="30" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="304" y="210" width="192" height="130" rx="12" fill="#dfe8f7" /><circle cx="400" cy="390" r="22" fill="#12397a" /></svg></div>
+        <h3>Dnevni poziv</h3><p>Automatski poziv na srpskom u vreme koje odaberete; roditelj pritisne taster.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_poziv">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Ili jedno dugme</text><text x="120" y="490" font-size="30" fill="#566174">veliko dugme</text><rect x="200" y="240" width="400" height="140" rx="28" fill="#12397a" /><circle cx="400" cy="310" r="28" fill="#dfe8f7" /></svg></div>
+        <h3>Ili jedno dugme</h3><p>Roditelj sa pametnim telefonom pritisne jedno veliko dugme.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dugme">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Obaveštenje deci</text><text x="120" y="490" font-size="30" fill="#566174">nema odgovora</text><rect x="140" y="200" width="360" height="80" rx="20" fill="#dfe8f7" /><polygon points="180,280 210,280 170,310" fill="#dfe8f7" /><rect x="300" y="330" width="360" height="80" rx="20" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polygon points="620,410 590,410 640,440" fill="#ffffff" /></svg></div>
+        <h3>Obaveštenje deci</h3><p>Ako nema odgovora, poruka vama i drugim bliskim, u inostranstvu ili u Srbiji.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_obavestenje">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Istorija</text><text x="120" y="490" font-size="30" fill="#566174">svaki dan</text><rect x="130" y="200" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="210" width="300" height="22" rx="8" fill="#dde2ea" /><polyline points="140,224 150,234 164,214" fill="none" stroke="#12397a" stroke-width="4" /><rect x="130" y="280" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="290" width="240" height="22" rx="8" fill="#dde2ea" /><polyline points="140,304 150,314 164,294" fill="none" stroke="#12397a" stroke-width="4" /><rect x="130" y="360" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="370" width="340" height="22" rx="8" fill="#dde2ea" /><polyline points="140,384 150,394 164,374" fill="none" stroke="#12397a" stroke-width="4" /></svg></div>
+        <h3>Istorija</h3><p>Kada se roditelj javio, svaki dan, na jednom mestu.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_istorija">Ovo mi treba</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Primer (izmišljeni podaci)</h2>
-    <p class="fine">Ćerka živi u Beču, majka (78) sama u Kragujevcu. Svakog dana u 10:00 majci stiže poziv; pritisne 1 i sve je u redu. U utorak se ne javlja: posle drugog poziva u 10:15 ćerka i komšinica dobijaju poruku. Komšinica pozvoni — majka je bila u prodavnici, telefon kod kuće.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Izaberite paket</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Primer</h2>
+      <p>Ćerka živi u Beču, majka (78) sama u Kragujevcu. Svakog dana u 10:00 majci stiže poziv; pritisne 1 i sve je u redu. U utorak se ne javlja: posle drugog poziva u 10:15 ćerka i komšinica dobijaju poruku. Komšinica pozvoni — majka je bila u prodavnici, telefon kod kuće.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Izaberite paket</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Beču</text><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">10:00</text><circle cx="960" cy="160" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">utorak</text><rect x="140" y="300" width="920" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="180" y="380" font-size="36" fill="#0a1524" font-weight="600">dobijaju poruku</text><rect x="180" y="430" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="280" y="430" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="380" y="430" width="70" height="70" rx="12" fill="#12397a" /><rect x="480" y="430" width="70" height="70" rx="12" fill="#dfe8f7" /><text x="180" y="620" font-size="32" fill="#566174">u prodavnici</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Kako radi</h2>
-    <p>Mnogo porodica iz Srbije živi razdvojeno: deca rade u Nemačkoj, Austriji, Švajcarskoj ili u drugom gradu, a roditelj živi sam. Svaki dan postoji isto pitanje — da li je dobro? Zvati svaki dan nije uvek moguće zbog posla i vremenske razlike, a kada roditelj ne odgovara, ne znate da li je samo izašao ili mu je potrebna pomoć. Javi se daje odgovor na to pitanje svakog dana.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Kako radi</h2></div>
+    <div class="stack">
+      <p>Mnogo porodica iz Srbije živi razdvojeno: deca rade u Nemačkoj, Austriji, Švajcarskoj ili u drugom gradu, a roditelj živi sam. Svaki dan postoji isto pitanje — da li je dobro? Zvati svaki dan nije uvek moguće zbog posla i vremenske razlike, a kada roditelj ne odgovara, ne znate da li je samo izašao ili mu je potrebna pomoć. Javi se daje odgovor na to pitanje svakog dana.</p>
     <p>Vi birate vreme dnevne provere, na primer svako jutro u 10:00. U to vreme roditelju stiže automatski poziv na srpskom jeziku: dovoljno je da pritisne jedan taster da potvrdi da je dobro. Ako ima pametni telefon, umesto poziva može da pritisne jedno veliko dugme u aplikaciji.</p>
     <p>Ako roditelj ne odgovori, poziv se ponavlja posle nekoliko minuta. Ako ni tada nema odgovora, vi i drugi bliski koje ste odredili — brat, sestra, komšija — dobijate poruku. Tako neko ko je blizu može da proveri šta se dešava.</p>
     <p>Svaki dan vidite da li se roditelj javio i u koje vreme. Ako se neko vreme javlja kasnije nego obično, to vidite u istoriji, bez stalnog zapitkivanja.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Ako u porodici ima više dece, svako može da vidi istoriju i da dobija obaveštenja, a dogovorite se ko prvi proverava kada roditelj ne odgovori. Komšija ili prijatelj u istom mestu može da bude prvi na listi, jer najbrže stiže do vrata.</p>
     <p>Za roditelje koji imaju svoj dnevni raspored — pijaca ujutru, šetnja posle podne — vreme provere možete da prilagodite po danima u nedelji, tako da poziv stiže kada je roditelj kod kuće.</p>
     <p>Podaci o roditelju i bliskima koriste se samo za dnevnu proveru i obaveštenja i čuvaju se zaštićeno.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pitanja i odgovori</h2>
-    <h3>Kome je namenjena usluga?</h3>
-    <p>Deci i bliskima roditelja koji živi sam u Srbiji.</p>
-    <h3>Šta roditelj treba da uradi?</h3>
-    <p>Da u dogovoreno vreme pritisne jedan taster na pozivu ili jedno dugme u aplikaciji.</p>
-    <h3>Ko dobija obaveštenje?</h3>
-    <p>Vi i drugi bliski koje odredite, u inostranstvu ili u Srbiji.</p>
-    <h3>Da li je ovo hitna služba?</h3>
-    <p>Ne. To je dnevna provera; u hitnim slučajevima pozovite hitnu pomoć.</p>
-    <h3>Mogu li već da koristim uslugu?</h3>
-    <p>Još ne. Usluga je u pripremi i proveravamo da li je porodicama potrebna.</p>
+    <div class="stack"><h2>Pitanja i odgovori</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Kome je namenjena usluga?</h3><p>Deci i bliskima roditelja koji živi sam u Srbiji.</p></div>
+      <div class="split flip"><h3>Šta roditelj treba da uradi?</h3><p>Da u dogovoreno vreme pritisne jedan taster na pozivu ili jedno dugme u aplikaciji.</p></div>
+      <div class="split flip"><h3>Ko dobija obaveštenje?</h3><p>Vi i drugi bliski koje odredite, u inostranstvu ili u Srbiji.</p></div>
+      <div class="split flip"><h3>Da li je ovo hitna služba?</h3><p>Ne. To je dnevna provera; u hitnim slučajevima pozovite hitnu pomoć.</p></div>
+      <div class="split flip"><h3>Mogu li već da koristim uslugu?</h3><p>Još ne. Usluga je u pripremi i proveravamo da li je porodicama potrebna.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Podesite dnevnu proveru</h2>
-    <p><label>Gde živite<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— izaberite —</option><option>U Nemačkoj</option><option>U Austriji</option><option>U Švajcarskoj</option><option>U drugom gradu u Srbiji</option><option>Drugde</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Podesi proveru</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Podesite dnevnu proveru</h2>
+    </div>
+    <div class="tile stack">
+      <label>Gde živite<select data-ev-focus="form_start"><option value="">— izaberite —</option><option>U Nemačkoj</option><option>U Austriji</option><option>U Švajcarskoj</option><option>U drugom gradu u Srbiji</option><option>Drugde</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Podesi proveru</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Javi se</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Politika privatnosti</a></p>
-  <p class="muted">Javi se nije hitna služba i ne zamenjuje lekara ni negu. U hitnim slučajevima pozovite hitnu pomoć.</p>
+  <p>Javi se nije hitna služba i ne zamenjuje lekara ni negu. U hitnim slučajevima pozovite hitnu pomoć.</p>
 </div></footer>
 
 </body>
